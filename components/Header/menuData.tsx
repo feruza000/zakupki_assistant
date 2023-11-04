@@ -3,27 +3,58 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "Главная",
     newTab: false,
     path: "/",
   },
   {
     id: 2,
-    title: "Features",
+    title: "Обявления",
     newTab: false,
-    path: "/#features",
+    path: "/Announcements",
   },
   {
     id: 2.1,
-    title: "Blog",
+    title: "Новости",
     newTab: false,
     path: "/blog",
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "Инструкция",
     newTab: false,
-    path: "/docs",
+    submenu: [
+      {
+        id: 231,
+        title: "О нашей системе",
+        newTab: false,
+        path: "/docs",
+      },
+      {
+        id: 231,
+        title: "Обучение ИП, ОСОО",
+        newTab: false,
+        path: "/docs",
+      },
+      {
+        id: 232,
+        title: "Образовательная школа",
+        newTab: false,
+        path: "/auth/signin",
+      },
+      {
+        id: 234,
+        title: "Бонусы за активность",
+        newTab: false,
+        path: "/auth/signup",
+      },
+      {
+        id: 335,
+        title: "Реферальная программа",
+        newTab: false,
+        path: "/docs",
+      },
+    ],
   },
   {
     id: 3,
@@ -67,13 +98,6 @@ const menuData: Menu[] = [
         path: "/error",
       },
     ],
-  },
-
-  {
-    id: 4,
-    title: "Support",
-    newTab: false,
-    path: "/support",
   },
 ];
 
