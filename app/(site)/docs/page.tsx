@@ -15,17 +15,16 @@ export default function DocsPage() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/4"></div>
 
-            <div className="blog">
-              <h1 className="text-5xl font-bold md:text-center">
+            <div className="blog container">
+              <h2 className="color: rgb(29 78 216) text-3xl font-bold md:text-center">
                 О НАШЕЙ СИСТЕМЕ, КАК ПОЛЬЗОВАТЬСЯ
-              </h1>
+              </h2>
               <div className="bg">
                 <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5">
                   <div
                     className="animate_top z-40 rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
                     style={{ opacity: 1, transform: "none" }}
                   >
-                    {/* <div className="container"> */}
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px] bg-primary">
                       <img
                         alt="title"
