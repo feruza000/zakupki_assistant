@@ -1,7 +1,5 @@
-import BlogData from "@/components/Blog/blogData";
-import BlogItem from "@/components/Blog/BlogItem";
+
 import { Metadata } from "next";
-import SidebarLink from "@/components/Docs/SidebarLink";
 
 export const metadata: Metadata = {
   title: "Blog Page - Solid SaaS Boilerplate",
