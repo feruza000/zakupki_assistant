@@ -39,6 +39,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
                         {`${title.slice(0, 40)}...`}
                     </Link>
                 </h6>
+                <p className="line-clamp-3">{metadata}</p>
             </div>
         </div>
       </motion.div>
